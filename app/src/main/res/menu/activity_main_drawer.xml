@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/login"
+
+            android:icon="?android:attr/fingerprintAuthDrawable"
+            android:title="login" />
+        <item
+            android:id="@+id/rating"
+            android:icon="@android:drawable/btn_star"
+            android:title="rate the app" />
+        <item
+            android:id="@+id/aboutus"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="about us" />
+        <item
+            android:id="@+id/exit"
+            android:icon="@android:drawable/ic_menu_close_clear_cancel"
+            android:title="exit" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/feedback"
+                android:icon="@drawable/ic_menu_send"
+                android:title="feedback" />
+        </menu>
+    </item>
+
+</menu>

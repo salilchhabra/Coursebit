@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.salil.coursebit.splash">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="WELCOME"
+
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="50dp" />
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:src="@drawable/courses"
+        android:scaleType="fitXY"
+        android:layout_marginTop="100sp"
+        android:layout_marginLeft="5sp"
+        android:id="@+id/imageView1"/>
+
+</RelativeLayout>
