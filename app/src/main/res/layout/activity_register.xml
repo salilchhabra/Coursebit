@@ -4,59 +4,52 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient"
     tools:context="com.example.salil.coursebit.register">
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageView5"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_alignParentStart="true"
+        android:layout_height="200dp"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/course"
-        android:layout_alignParentLeft="true" />
+        app:srcCompat="@drawable/coursee" />
 
-    <TextView
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/e11"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+
         android:layout_centerHorizontal="true"
-        android:text="REGISTER YOURSELF"
-        android:textSize="30dp"
-        android:textColor="@android:color/black"/>
-    <EditText
-        android:id="@+id/e1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/imageView2"
-        android:layout_marginTop="94dp"
+        android:layout_centerVertical="true"
+        android:background="#11000000"
         android:ems="10"
-        android:inputType="textPersonName"
         android:hint="username"
-        android:layout_alignLeft="@+id/imageView2" />
+        android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/e2"
-        android:layout_width="match_parent"
+        android:id="@+id/e22"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/e1"
-        android:layout_below="@+id/e1"
-        android:layout_marginTop="23dp"
-        android:hint="password"
-        android:ems="10"
-        android:inputType="textPassword"
-        android:layout_alignLeft="@+id/e1" />
 
+        android:layout_alignStart="@+id/e11"
+        android:layout_marginBottom="65dp"
+        android:layout_marginTop="20dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:layout_below="@+id/e11"
+        android:hint="password"
+        android:inputType="textPassword" />
 
     <Button
-        android:id="@+id/b2"
-        android:layout_width="200dp"
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
-        android:layout_below="@+id/e2"
+        android:layout_alignTop="@+id/e22"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="46dp"
-        android:background="@android:color/holo_blue_dark"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/mybutton"
+        android:onClick="signup"
         android:text="register"
-        android:onClick="signup"/>
+        android:textColor="#ffffff" />
 </RelativeLayout>
